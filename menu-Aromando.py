@@ -55,7 +55,7 @@ menu = {
 order_list = []
 
 # Launch the store and present a greeting to the customer
-print("Welcome to the variety food truck.")
+print("Welcome to the Variety Food Truck.")
 
 # Customers may want to order multiple items, so let's create a continuous
 # loop
@@ -195,7 +195,7 @@ while place_order:
     # Loop through the items in the customer's order.
     if order_list and not place_order:  
         print("\n")
-        print("Thank you for your order with Big Variety Food Truck!")
+        print("Thank you for your order with the Variety Food Truck!")
         print("This is what we are preparing for you.\n")
         print("Item name                 | Price  | Quantity")
         print("--------------------------|--------|----------")
@@ -225,7 +225,7 @@ while place_order:
         print("\nTotal Cost: ${:.2f}".format(total_price))
 
         # Since customer decided to stop, thank them for their order.
-        print("\nThank you for visiting with our team at Big Variety Food Truck!")
+        print("\nThank you for visiting with our team at the Variety Food Truck!")
 
     elif keep_ordering.upper() != "Y":
         # If the order list is empty, prompt the user to try again.
